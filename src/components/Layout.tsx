@@ -5,6 +5,7 @@ const NAV = [
   { to: "/", label: "Dashboard", icon: "▦", end: true },
   { to: "/findings", label: "Findings", icon: "⚑" },
   { to: "/llm", label: "LLM Red-Team", icon: "⬡" },
+  { to: "/threats", label: "Threat Library", icon: "☍" },
   { to: "/targets", label: "Targets & Scope", icon: "◎" },
 ];
 
