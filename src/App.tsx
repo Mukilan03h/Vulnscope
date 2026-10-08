@@ -6,6 +6,7 @@ import FindingDetail from "@/pages/FindingDetail";
 import Targets from "@/pages/Targets";
 import LLMRedTeam from "@/pages/LLMRedTeam";
 import ThreatLibrary from "@/pages/ThreatLibrary";
+import AttackLab from "@/pages/AttackLab";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/targets" element={<Targets />} />
         <Route path="/llm" element={<LLMRedTeam />} />
         <Route path="/threats" element={<ThreatLibrary />} />
+        <Route path="/attack-lab" element={<AttackLab />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Layout>
